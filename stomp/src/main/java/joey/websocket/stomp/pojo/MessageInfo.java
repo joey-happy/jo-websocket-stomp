@@ -2,6 +2,8 @@ package joey.websocket.stomp.pojo;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 传输消息载体
  *
@@ -9,7 +11,7 @@ import lombok.Data;
  * @date 2019/12/19
  */
 @Data
-public class MessageInfo {
+public class MessageInfo implements Serializable {
     private MessageAction action;
     private String content;
     private String sender;

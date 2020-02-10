@@ -69,7 +69,7 @@ public class HelloClient {
         vo.setAction(MessageInfo.MessageAction.SEND);
         vo.setContent("test");
         vo.setSender("me");
-        stompSession.send("/app/message/1", JSON.toJSONString(vo).getBytes());
+        stompSession.send("/app/message/1", vo);
     }
 
     private class MyHandler extends StompSessionHandlerAdapter {

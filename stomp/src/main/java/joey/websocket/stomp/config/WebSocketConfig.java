@@ -93,11 +93,11 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
                 StompHeaderAccessor accessor = MessageHeaderAccessor.getAccessor(message, StompHeaderAccessor.class);
                 StompCommand command = accessor.getCommand();
                 log.info("preSend-command:" + command.toString());
-                if (StompCommand.CONNECT.equals(command)) {
-                    log.info("preSend-connect:");
+//                if (StompCommand.CONNECT.equals(command)) {
+//                    log.info("preSend-connect:");
 //                    Principal user = new Principal();
 //                    accessor.setUser(user);
-                }
+//                }
                 return message;
             }
         });
