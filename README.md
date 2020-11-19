@@ -1,4 +1,5 @@
 ### webSocket参考文献
+> * http://www.mydlq.club/article/86/
 > * https://juejin.im/post/5baf20525188255c425837ad Springboot中实现更灵活的WebSocket
 > * https://juejin.im/post/5ba2398a6fb9a05cdf308b39 WebSocket的故事（五）—— Springboot中，实现网页聊天室之自定义消息代理
 > * https://yq.aliyun.com/articles/616426?spm=a2c4e.11153940.0.0.38951eb7k8EaOE Spring消息之STOMP
