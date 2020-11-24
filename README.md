@@ -1,4 +1,5 @@
 ### webSocket参考文献
+> * https://blog.csdn.net/runbat/article/details/80985944?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control
 > * https://blog.csdn.net/qq_33223299/article/details/86627901 最精简webSocket配置
 > * http://www.mydlq.club/article/86/
 > * https://juejin.im/post/5baf20525188255c425837ad Springboot中实现更灵活的WebSocket
