@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.62</version>
+            <version>1.2.83</version>
         </dependency>
 
         <!-- https://github.com/YeautyYE/netty-websocket-spring-boot-starter/blob/master/README_zh.md -->
